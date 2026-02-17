@@ -6,4 +6,4 @@
 
 出典：気象庁「地域気象観測システム（アメダス）」  
 （ページ内の「観測所一覧」ZIP から取得）
-https://www.jma.go.jp/jma/kishou/know/amedas/
+[https://www.jma.go.jp/jma/kishou/know/amedas/](https://www.jma.go.jp/jma/kishou/know/amedas/kaisetsu.html)
