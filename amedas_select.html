@@ -24558,8 +24558,8 @@ stationSelect.addEventListener("change", () => {
   // ▼ 十進法に変換（小数点2桁）
   const lat = toDecimal(s.lat_deg, s.lat_min);
   const lon = toDecimal(s.lon_deg, s.lon_min);
-  const latDisp = lat.toFixed(2);
-  const lonDisp = lon.toFixed(2);
+  const latDisp = lat.toFixed(6);
+  const lonDisp = lon.toFixed(6);
 
   // ▼ 詳細表示（3列×4行グリッド）
   infoBox.innerHTML = `
