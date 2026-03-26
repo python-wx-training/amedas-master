@@ -24588,13 +24588,13 @@ stationSelect.addEventListener("change", () => {
   marker = L.marker([lat, lon], { 
     icon: L.icon({
       iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png',
-      iconSize: [32, 32],
-      iconAnchor: [16, 32]
+      iconSize: [96, 96],
+      iconAnchor: [48, 96]
     })
   }).addTo(map);
 
   // ▼ 200km 四方（±1.8度）
-  const delta = 1.8;
+  const delta = 1.0;
   const bounds = [
     [lat - delta, lon - delta],
     [lat + delta, lon + delta]
